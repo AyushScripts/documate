@@ -1,11 +1,15 @@
+import Footer from "@/components/Footer";
 import { SignUp } from "@clerk/nextjs";
 import React from "react";
 
 const SignUpPage = () => {
   return (
-    <main className="auth-page">
-      <SignUp />
-    </main>
+    <div>
+      <div className="auth-page">
+        <SignUp />
+      </div>
+      <Footer />
+    </div>
   );
 };
 
